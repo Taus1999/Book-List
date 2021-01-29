@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Book List</title>
+    <link rel="shortcut icon" type="images/png" href="img/icon1.png">
+</head>
+<body>
+    <div class="container">
+        <h3>Book <i class="fas fa-book"></i> List</h3>
+        <form id="book-form">
+            <div>
+                <label for="title" class="label-form">Title</label>
+                <input type="text" id="title" class="u-full-width input-fld">
+            </div>
+            <div>
+                <label for="author" class="label-form">Author</label>
+                <input type="text" id="author" class="u-full-width input-fld">
+            </div>
+            <div>
+                <label for="isbn" class="label-form">ISBN#</label>
+                <input type="text" id="isbn" class="u-full-width input-fld">
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" value="Submit" class="u-full-width" id="submit-btn">
+            </div>
+
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Del</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+
+        </table>
+        
+    </div>
+    
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
